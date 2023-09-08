@@ -8,6 +8,7 @@
   <link rel="stylesheet" href="css/style.css">
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+  <script src="js/script.js"></script>
 </head>
 
 <body>
@@ -19,11 +20,12 @@
 
 
   <!-- cabecera -->
-  <div class="container">
-    <header>
+  
+  <header class="rounded" id="header">
+    <div id="contenedor_header">
       <div class="row">
-        <div class="col-2 col-sm-1 px-sm-4 py-4">
-          <button id="btnMenu" class="btn" data-bs-toggle="offcanvas" href="#offcanvasExample" role="button"
+        <div class="col-2 col-sm-1 px-sm-4 py-1">
+          <button id="btn_menu" class="btn" data-bs-toggle="offcanvas" href="#offcanvasExample" role="button"
             aria-controls="offcanvasExample">
             <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="currentColor" class="bi bi-list"
               viewBox="0 0 16 16">
@@ -47,12 +49,11 @@
           </div>
         </div>
         <div class="col-10 d-flex">
-          <img id="logo_principal" alt="Logo" src="./img/congreso-movilidad.png" class="img-fluid align-items-center">
+          <img id="logo_principal" alt="Logo" src="./img/congreso-movilidad.webp" class="img-fluid align-items-center">
         </div>
       </div>
-
-    </header>
-  </div>
+    </div>
+  </header>
 
 
   <!--navegacion-->
@@ -69,8 +70,6 @@
 
   <!--Cuerpo-->
   <div class="container">
-
-    <body>
 
       <!--<div class="grid">
                 <div class="g-col">
@@ -245,6 +244,8 @@
               aria-label="Slide 2"></button>
             <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
               aria-label="Slide 3"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3"
+              aria-label="Slide 4"></button>
           </div>
           <div class="carousel-inner px-5 py-2">
             <div class="carousel-item active">
@@ -255,6 +256,9 @@
             </div>
             <div class="carousel-item">
               <img src="img/logo-fundacion-ibercaja.svg" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item">
+              <img src="img/usj_logo.webp" class="d-block w-100" alt="...">
             </div>
           </div>
           <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
@@ -286,7 +290,6 @@
         </div>
       </div>
 
-    </body>
   </div>
 
   

@@ -14,11 +14,7 @@ body
 
 .container {
     max-width: 1200px !important;
-}
-
-header
-{
-    max-width: 1060px;
+    margin-top: 70px;
 }
 
 h2
@@ -36,8 +32,30 @@ CABEZERA
 
 
 #logo_principal {
-    height: 90px;
+    height: 60px;
+    transition: 0.2s;
 }
+
+#btn_menu {
+    padding: 9px 12px;
+    transition: 0.2s;
+}
+
+header {
+    width: 100%;
+    position: fixed;
+    top: 0px;
+    background-color: white;
+    z-index: 1;
+    transition: 0.2s;
+}
+
+#contenedor_header {
+    max-width: 1200px;
+    margin: auto;
+    padding: 5px 0px;
+}
+
 
 .contenedor_img {
     height: 300px;
@@ -55,15 +73,15 @@ CABEZERA
     top:-100%; left:0; right: 0; bottom:-100%;
 }
 
-@media screen and (max-width: 450px) {
+@media screen and (max-width: 480px) {
     #logo_principal {
-        height: 70px;
+        height: 75px;
         margin-top: 10px;
         padding: 0px;
     }
 
     .contenedor_img {
-        height: 250px;
+        height: 230px;
     }
   }
 
@@ -72,6 +90,10 @@ CABEZERA
         height: 60px;
         margin-top: 20px;
         padding: 0px;
+    }
+
+    .contenedor_img {
+        height: 100px;
     }
   }
 
