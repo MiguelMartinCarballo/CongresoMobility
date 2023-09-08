@@ -75,27 +75,27 @@ header {
 
 @media screen and (max-width: 480px) {
     #logo_principal {
-        height: 75px;
-        margin-top: 10px;
+        height: 50px;
+        margin-top: 5px;
         padding: 0px;
     }
 
     .contenedor_img {
         height: 230px;
     }
-  }
+}
 
-  @media screen and (max-width: 390px) {
+@media screen and (max-width: 390px) {
     #logo_principal {
-        height: 60px;
-        margin-top: 20px;
+        height: 40px;
+        margin-top: 10px;
         padding: 0px;
     }
 
     .contenedor_img {
         height: 100px;
     }
-  }
+}
 
 .btn-mobility {
     background-color: #0089a6 !important;
