@@ -1,0 +1,137 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Poppins:wght@600;700&display=swap');
+
+
+body * {
+    font-family: 'Montserrat', sans-serif;
+}
+
+body
+{
+    background-color: #f6f8fa;
+    margin:0 auto;
+    font-size: 30px;
+}
+
+.container {
+    max-width: 1200px !important;
+}
+
+header
+{
+    max-width: 1060px;
+}
+
+h2
+{
+    color:rgb(15, 59, 98);
+}
+
+h1, h2, h3, h4, h5 {
+    font-family: 'Poppins', sans-serif;
+}
+
+/*--------------
+CABEZERA
+-----------------*/
+
+
+#logo_principal {
+    height: 90px;
+}
+
+.contenedor_img {
+    height: 300px;
+    width: 100%;
+    overflow: hidden;
+    border-radius: 10px;
+    position: relative;
+}
+
+.contenedor_img img {
+    object-fit: fill;
+    margin: auto;
+    width: 100%;
+    position: absolute;
+    top:-100%; left:0; right: 0; bottom:-100%;
+}
+
+@media screen and (max-width: 450px) {
+    #logo_principal {
+        height: 75px;
+        margin-top: 10px;
+        padding: 0px;
+    }
+
+    .contenedor_img {
+        height: 250px;
+    }
+  }
+
+  @media screen and (max-width: 390px) {
+    #logo_principal {
+        height: 60px;
+        margin-top: 20px;
+        padding: 0px;
+    }
+  }
+
+.btn-mobility {
+    background-color: #0089a6 !important;
+    color: white !important;
+}
+
+.carousel {
+    height: 130px;
+    overflow: hidden;
+}
+
+.carousel-item {
+    width: 70%;
+}
+
+#organiza img {
+    width: 80%;
+}
+
+
+/*-----------
+PIE / FOOTER
+-----------*/
+
+
+#prefooter {
+    width: 100%;
+}
+
+#prefooter * {
+    width: 100%;
+}
+
+path{
+    width: 100%;
+}
+
+.footer-menu-map {
+    background-color: #0f3b62;
+    color: white;
+}
+
+.footer-menu-legal {
+    background-color: #e6e9ea;
+}
+
+.footer-menu-legal a {
+    color: #3d4245;
+    text-decoration: none;
+}
+
+.footer-menu-legal a:hover {
+    color: #0089A6;
+}
+
+.footer-menu-legal li {
+    margin-right: 30px;
+    font-size: 14px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
