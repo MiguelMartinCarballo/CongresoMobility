@@ -153,7 +153,8 @@ header {
 }
 
 .bg-mobility {
-    background-color: #0f3b62;
+    background-color: #0089a6 !important;
+    color: white !important;
 }
 
 .carousel {
@@ -169,6 +170,18 @@ header {
     width: 80%;
 }
 
+.card {
+    border-radius: 15px !important;
+}
+
+.card-img-top {
+    border-top-left-radius: 15px !important;
+    border-top-right-radius: 15px !important;
+}
+
+.card-footer:last-child {
+    border-radius: 0 0 15px 15px !important;
+}
 
 /*-----------
 PIE / FOOTER
