@@ -121,9 +121,9 @@ header {
 
 @media screen and (max-width: 480px) {
     #logo_principal {
-        height: 50px;
         margin-top: 5px;
         padding: 0px;
+        max-height: 50px;
     }
 
     .contenedor_img_main {
@@ -141,7 +141,7 @@ header {
 
 @media screen and (max-width: 390px) {
     #logo_principal {
-        height: 40px;
+        max-height: 40px;
         margin-top: 10px;
         padding: 0px;
     }
