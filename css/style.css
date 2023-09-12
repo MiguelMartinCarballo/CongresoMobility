@@ -60,16 +60,25 @@ header {
     padding: 5px 0px;
 }
 
-
 .contenedor_img {
-    height: 300px;
     width: 100%;
     overflow: hidden;
-    border-radius: 10px;
     position: relative;
 }
 
-.contenedor_img img, .contenedor_img_100 img {
+.contenedor_img_main {
+    height: 300px;
+    border-radius: 10px;
+}
+
+.contenedor_img_100 {
+    height: 500px;
+    display: block;
+    text-align: center;
+    border-radius: 0px;
+}
+
+.contenedor_img img {
     object-fit: cover;
     margin: auto;
     min-height: 100%;
@@ -78,15 +87,8 @@ header {
     top:-100%; left:0; right: 0; bottom:-100%;
 }
 
-.contenedor_img_100 {
-    height: 500px;
-    display: block;
-    overflow: hidden;
-    position: relative;
-    text-align: center;
-}
-
 .texto_img {
+    width: 100%;
     position: absolute;
     top: 50%;
     left: 50%;
@@ -111,6 +113,12 @@ header {
     background-image: url("../img/fondo_moblity.webp");
 }
 
+@media screen and (max-width: 1340px) {
+    .container{
+        max-width: 90% !important;
+    }
+}
+
 @media screen and (max-width: 480px) {
     #logo_principal {
         height: 50px;
@@ -118,8 +126,12 @@ header {
         padding: 0px;
     }
 
-    .contenedor_img {
+    .contenedor_img_main {
         height: 230px;
+    }
+
+    .contenedor_img_100 {
+        height: 250px;
     }
 
     .container_body {
@@ -134,8 +146,12 @@ header {
         padding: 0px;
     }
 
-    .contenedor_img {
+    .contenedor_img_main {
         height: 100px;
+    }
+
+    .contenedor_img_100 {
+        height: 250px;
     }
 }
 
@@ -160,6 +176,7 @@ header {
 .carousel {
     height: 130px;
     overflow: hidden;
+    z-index: -1;
 }
 
 .carousel-item {
