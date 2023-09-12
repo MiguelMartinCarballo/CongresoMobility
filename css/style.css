@@ -9,12 +9,16 @@ body
 {
     background-color: #f6f8fa;
     margin:0 auto;
-    font-size: 30px;
 }
 
-.container {
+.container{
     max-width: 1200px !important;
+}
+
+.container_body {
     margin-top: 70px;
+    font-size: 19px;
+    line-height: 32px;
 }
 
 h2
@@ -65,12 +69,46 @@ header {
     position: relative;
 }
 
-.contenedor_img img {
-    object-fit: fill;
+.contenedor_img img, .contenedor_img_100 img {
+    object-fit: cover;
     margin: auto;
+    min-height: 100%;
     width: 100%;
     position: absolute;
     top:-100%; left:0; right: 0; bottom:-100%;
+}
+
+.contenedor_img_100 {
+    height: 500px;
+    display: block;
+    overflow: hidden;
+    position: relative;
+    text-align: center;
+}
+
+.texto_img {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    text-shadow: 2px 2px 5px #0f3b62;
+}
+
+.text-18 {
+    font-size: 18px !important;
+}
+
+.texto_img .text-14 {
+    font-size: 14px;
+}
+
+.texto_img h1 {
+    font-size: 36px;
+}
+
+#fondo_actividad_01 {
+    background-image: url("../img/fondo_moblity.webp");
 }
 
 @media screen and (max-width: 480px) {
@@ -84,7 +122,7 @@ header {
         height: 230px;
     }
 
-    .container {
+    .container_body {
         margin-top: 80px;
     }
 }
@@ -104,6 +142,18 @@ header {
 .btn-mobility {
     background-color: #0089a6 !important;
     color: white !important;
+}
+
+.btn-mobility2 {
+    background-color: rgba(15, 59, 98, 0.3) !important;
+    color: white !important;
+    border: 3px solid white !important;
+    font-weight: bold !important;
+    box-shadow: 2px 2px 5px #0f3b62;
+}
+
+.bg-mobility {
+    background-color: #0f3b62;
 }
 
 .carousel {
