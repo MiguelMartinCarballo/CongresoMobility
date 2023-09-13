@@ -1,0 +1,46 @@
+#calendario{
+    width: 100%;
+    border-radius: 15px;
+    padding: 18px 0px 0px 0px;
+    background-color: #008aa627;
+}
+
+.color_row_normal {
+    background-color: #008aa627;
+}
+
+.color_row_dark {
+    background-color: #008aa635;
+}
+
+.color_row_light {
+    background-color: #ffffff62;
+}
+
+.parte_calendario {
+    padding-bottom: 18px;
+}
+
+#calendario .row {
+    /*border-bottom: 1px dotted black;*/
+    margin: 0px;
+    padding: 0px 15px;
+}
+
+#calendario .row:last-child {
+    border: 0px;
+}
+
+hr.style18 {
+	height: 20px;
+	border: 0;
+	box-shadow: 0 10px 10px -10px #8c8b8b inset;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+@media screen and (max-width: 992px) {
+    #calendario .row .col-6:last-child{
+        font-size: 14px;
+    }
+}
