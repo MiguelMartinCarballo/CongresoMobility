@@ -3,6 +3,7 @@
     border-radius: 15px;
     padding: 18px 0px 0px 0px;
     background-color: #008aa627;
+    margin-top: 15px;
 }
 
 .color_row_normal {
@@ -39,8 +40,10 @@ hr.style18 {
     margin-bottom: 0px;
 }
 
-@media screen and (max-width: 992px) {
-    #calendario .row .col-6:last-child{
-        font-size: 14px;
-    }
+.fechaMini {
+    font-size: 14px;
+}
+
+.row {
+    overflow-wrap: break-word;
 }

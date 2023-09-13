@@ -169,6 +169,11 @@ header {
     color: white !important;
 }
 
+.btn-mobility svg{
+    width: 20px;
+    margin-right: 5px;
+}
+
 .btn-mobility2 {
     background-color: rgba(15, 59, 98, 0.3) !important;
     color: white !important;
@@ -179,6 +184,10 @@ header {
 
 .bg-mobility {
     background-color: #0089a6 !important;
+    color: white !important;
+}
+
+.bg-mobility h3 {
     color: white !important;
 }
 
